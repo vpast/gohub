@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  font-weight: bold;
+  font-family: "Brown";
+}
+
+/** top-block **/
+.top-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.top-block__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+}
+
+.top-block__item {
+  padding: 5px 15px;
+}
+
+.top-block__item_rectangle {
+  background-color: blue;
+}
+
+.top-block__item a {
+  color: #32325d;
+  text-decoration: none;
+}
+
+.top-block__item_rectangle a {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
