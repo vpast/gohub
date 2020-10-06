@@ -1,6 +1,22 @@
 body {
     font-weight: bold;
-    font-family: "Brown";
+    //font-family: "Brown";
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1250px;
+    padding: 0;
+}
+
+
+.top-background {
+    position: absolute;
+    z-index: -1;
+    width: auto;
+    height: auto;
+    top: -8.5rem;
+    left: -2rem;
 }
 
 
@@ -8,33 +24,45 @@ body {
 
 
 .top-block {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
 }
 
 .top-block__list {
-  display: flex;
-  width: 600px;
-  justify-content: space-between;
-  padding-left: 0;
-  list-style: none;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    padding-left: 0;
+    list-style: none;
 }
 
 .top-block__item {
-  padding: 5px 15px;
+    padding: 5px 15px;
+    font-size: 19px;
 }
 
 .top-block__item_rectangle {
-  background-color: blue;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    filter: drop-shadow(-6.691px 7.431px 10px rgba(132,92,255,0.2));
+    background-color: #845cff;
+    text-align: center;
+    cursor: pointer;
 }
 
 .top-block__item a {
-  color: #32325d;
-  text-decoration: none;
+    color: #32325d;
+    text-decoration: none;
 }
 
 .top-block__item_rectangle a {
-  color: white;
+    color: white;
 }
+
+
+
+/** hero **/
+
 
