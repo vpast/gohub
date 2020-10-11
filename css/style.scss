@@ -159,37 +159,37 @@ body {
     margin-top: 2rem;
 }
 
-.about-us__card__only-text {
+.about-us__card_only-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin-right: 5rem;
 }
 
-.about-us__card__bg {
+.about-us__card_bg {
     border-radius: 10px;
     filter: drop-shadow(-6.691px 7.431px 10px rgba(212,212,250,0.2));
     background-color: #ffffff;
 }
 
-.about-us__card__flex {
+.about-us__card_flex {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding-left: 4rem;
 }
 
-.about-us__card__icon {
+.card__icon {
     margin-top: 3rem;
 }
 
-.about-us__card__title {
+.about-us__card_title {
     font-size: 30px;
     color: #212240;
     font-weight: 300;
 }
 
-.about-us__card__description {
+.about-us__card_description {
     width: 420px;
     height: 124px;
     font-size: 18px;
