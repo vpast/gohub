@@ -1,16 +1,23 @@
 body {
   font-weight: bold;
   overflow-x: hidden;
-  background-image: url(/assets/backgorund.png);
+  background-image: url(/assets/background.png);
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: right -2.5rem top -9rem;
+  background-position: left 0 top -9rem;
 }
 
 .container {
-  max-width: 1250px;
+  max-width: 1240px;
+}
+
+.row {
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
   padding-left: 50px;
-  padding-right: 30px;
+  padding-right: 50px;
 }
 
 /** top-block **/
@@ -59,6 +66,30 @@ body {
 
 .top-block__item_rectangle a {
   color: white;
+}
+
+@media (max-width: 575px) {
+  .top-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top-block__list {
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 /** hero **/
@@ -132,27 +163,26 @@ body {
 
 /** about-us **/
 .about-us {
-  margin-top: 8.7rem;
+  margin-top: 11.9rem;
 }
 
 .about-us__card {
-  width: 560px;
   height: 480px;
 }
 
 .about-us__first-line {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
-.about-us__title__title {
+.about-us__title {
   font-size: 48px;
   line-height: 62px;
   color: #32325d;
   font-weight: 300;
 }
 
-.about-us__title__description {
-  width: 500px;
+.about-us__description {
+  max-width: 500px;
   height: 100px;
   font-size: 23px;
   line-height: 32px;
@@ -172,7 +202,6 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: 5rem;
 }
 
 .about-us__card_bg {
@@ -195,26 +224,32 @@ body {
   padding-left: 4rem;
 }
 
-.card__icon {
+@media (max-width: 575px) {
+  .about-us__card {
+    height: auto;
+  }
+  .about-us__description {
+    height: auto;
+  }
+}
+
+/* card */
+.block-card__icon {
   margin-top: 3rem;
 }
 
-.about-us__card_title {
+.block-card__title {
   font-size: 30px;
   color: #212240;
   font-weight: 300;
 }
 
-.about-us__card_description {
-  width: 420px;
+.block-card__description {
+  max-width: 420px;
   height: 124px;
   font-size: 18px;
   line-height: 25px;
   color: #525f7f;
   font-weight: 300;
-}
-
-.about-us__second-card {
-  margin-right: 5rem;
 }
 /*# sourceMappingURL=style.css.map */
