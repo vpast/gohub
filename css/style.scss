@@ -1,6 +1,6 @@
 body {
     font-weight: bold;
-    //font-family: "Brown";
+    font-family: "Poppins", sans-serif;
     overflow-x: hidden;
     background-image: url(/assets/background.png);
     background-repeat: no-repeat;
@@ -26,3 +26,4 @@ body {
 @import "./_hero.scss";
 @import "./_about-us.scss";
 @import "./_block-card.scss";
+@import "./_services.scss";
