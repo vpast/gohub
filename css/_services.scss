@@ -1,6 +1,11 @@
 .services {
     margin-top: 10rem;
-    // background-image: linear-gradient(0deg, #cbcbff 0%, #f7f7ff 100%);
+    padding-bottom: 200px;
+    background-image: url(/assets/services__background.svg);
+    background-repeat: no-repeat;
+    background-size: 2613px;
+    background-position-y: 450px;
+    background-position-x: -350px;
 }
 
 .services__text-block {

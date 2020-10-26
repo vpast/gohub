@@ -256,6 +256,12 @@ body {
 
 .services {
   margin-top: 10rem;
+  padding-bottom: 200px;
+  background-image: url(/assets/services__background.svg);
+  background-repeat: no-repeat;
+  background-size: 2613px;
+  background-position-y: 450px;
+  background-position-x: -350px;
 }
 
 .services__text-block {
